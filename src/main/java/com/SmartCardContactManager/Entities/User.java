@@ -29,7 +29,7 @@ public class User {
 
 
 
-    @OneToMany(cascade = CascadeType.ALL , mappedBy = "user")
+    @OneToMany(cascade = CascadeType.ALL ,mappedBy = "user")
     private List<Contact> Contact=new ArrayList<>();
 
 
